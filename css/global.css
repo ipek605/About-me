@@ -1,0 +1,87 @@
+/* Text */
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size:1.25rem;
+}
+.heading-medium {
+    font-size:1.5rem;
+}
+.heading-big{
+    font-size:1.75rem;
+}
+
+/* Colors */
+
+.bg-blue {
+    background: rgb(73, 149, 167);
+}
+
+.bg-dark {
+    background:rgb(34, 38, 39);
+}
+
+/* Buttons */
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing:0.8px;
+}
+.btn-primary {
+    background: rgb(34, 38, 39);
+}
+.btn-primary:hover {
+    color:rgb(34, 38, 39);
+    background: #fff;
+    border: 0.5px solid rgb(34, 38, 39);
+}
+.btn-dark {
+    
+    color: #333;
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing:0.8px;
+}
+.btn:hover {
+    color: #333;
+    background:rgb(127, 167, 170);
+    border: 0.5px solid #333;
+}
+.btn-dark:hover {
+    color: #fff;
+    background:#333;
+    border: 0.5px solid rgb(73, 149, 167);
+}
+/* Forms */
+
+
+.form-group {
+     padding: 0.25rem 0;
+ 
+}
+
+.form-group label {
+    display: block;
+}
+
+
+.form-control {
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius:5px;
+}
+
+
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
