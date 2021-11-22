@@ -64,20 +64,23 @@ body {
     font-style: italic;
     color:rgb(34, 38, 39);
 }
-/**/
-
-p {
+section p {
     margin: 5% 10%;
     text-align: center;
-    color:rgb(34, 38, 39);
-
+    color:rgba(34, 38, 39,0.7);
+    letter-spacing:1px;
+}
+h6{
+    margin: 5% 10%;
+    text-align: center;
+    color:rgba(34, 38, 39,0.7);
+    letter-spacing:1px;
 }
 
 footer ul {
     list-style-type: none;
     display:flex;
     justify-content:center;
-    
 }
 footer ul li a {
     padding:3rem;
@@ -85,10 +88,7 @@ footer ul li a {
     display: flex;
     align-content: center;
     justify-content: center;
-
-   
 }
-
 footer ul li a:hover{
     opacity:0.8;
 } 

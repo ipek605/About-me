@@ -1,21 +1,39 @@
-p {
+/* Global */
+
+#hr{
+    border-top: 3px solid rgb(73, 149, 167); 
+  width:500px; 
+  margin:auto;
+}
+
+
+/* Home Page */
+section p {
     font-size: 0.8rem;
 }
 
+
+/* Contact Me*/
 .form-group{
     color:rgb(34, 38, 39);
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: center;
     display: block;
-
+    padding:15px;
+    margin:auto;   
+}
+#imgDiv{
+    display: flex; 
+    justify-content: center; 
+    padding: 20px;
+}
+#image1 {
+    width:400px;
 }
 
-#space {
-    width: 100%;
-    height:200px;;
-}
+/* About Me */
 
-body{
-    background-size: 300px;
+.aboutMe{
+    font-size:1.1rem;
 }
 

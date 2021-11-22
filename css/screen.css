@@ -1,0 +1,23 @@
+body {
+width:100%;
+}
+/* Home Page */
+#image2{
+    max-height: 223px;
+    max-width: 171px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+section p {
+    margin: 2% 8%;
+}
+
+/* Contact Page */
+
+  #image1{
+    width:550px;
+  }
+
+
